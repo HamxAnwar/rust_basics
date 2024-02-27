@@ -1,0 +1,5 @@
+var searchIndex = new Map(JSON.parse('[\
+["documentation",{"doc":"","t":"PGFPHONNNNNNNNHNNNNNN","n":["Blue","Color","Mail","Red","add","address","borrow","borrow","borrow_mut","borrow_mut","from","from","into","into","main","try_from","try_from","try_into","try_into","type_id","type_id"],"q":[[0,"documentation"],[21,"core::result"],[22,"core::any"]],"d":["","Favourite color.","A piece of mail.","","Ads two numbers.","","","","","","Returns the argument unchanged.","Returns the argument unchanged.","Calls <code>U::from(self)</code>.","Calls <code>U::from(self)</code>.","","","","","","",""],"i":[5,0,0,5,0,6,5,6,5,6,5,6,5,6,0,5,6,5,6,5,6],"f":[0,0,0,0,[[1,1],1],0,[-1,-2,[],[]],[-1,-2,[],[]],[-1,-2,[],[]],[-1,-2,[],[]],[-1,-1,[]],[-1,-1,[]],[-1,-2,[],[]],[-1,-2,[],[]],[[],2],[-1,[[3,[-2]]],[],[]],[-1,[[3,[-2]]],[],[]],[-1,[[3,[-2]]],[],[]],[-1,[[3,[-2]]],[],[]],[-1,4,[]],[-1,4,[]]],"c":[],"p":[[1,"i32"],[1,"tuple"],[6,"Result",21],[5,"TypeId",22],[6,"Color",0],[5,"Mail",0]],"b":[]}]\
+]'));
+if (typeof exports !== 'undefined') exports.searchIndex = searchIndex;
+else if (window.initSearch) window.initSearch(searchIndex);
