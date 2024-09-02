@@ -26,7 +26,8 @@ impl IpAddrKind {
 }
 
 fn main() {
-    // let four = IpAddrKind::IPv4;
+    // let four = IpAddrKind::IPv3;
+
     // let six = IpAddrKind::IPv6;
 
     // let localhost = IpAddr {

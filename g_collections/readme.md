@@ -1,0 +1,7 @@
+- We will talk about collections in this section.
+- Collections allow us to store multiple values.
+- Collections are different from tuples and arrays since they store these values in the heap. So their size can grow or shrink.
+- Collections specifically include:
+    - Vectors
+    - Strings
+    - Hashmaps

@@ -1,0 +1,9 @@
+/home/hamza/Projects/rust_basics/f_modules_1/target/debug/deps/libf_modules_1-484a21696791b24c.rmeta: src/main.rs Cargo.toml
+
+/home/hamza/Projects/rust_basics/f_modules_1/target/debug/deps/f_modules_1-484a21696791b24c.d: src/main.rs Cargo.toml
+
+src/main.rs:
+Cargo.toml:
+
+# env-dep:CLIPPY_ARGS=--no-deps__CLIPPY_HACKERY__
+# env-dep:CLIPPY_CONF_DIR
