@@ -1,5 +1,5 @@
-/home/hamza/Projects/rust_basics/f_modules_1/target/debug/deps/libanother_one-c11d7dc2e8da5a3e.rmeta: src/bin/another_one.rs
+/home/robotics/Projects/rust_basics/f_modules_1/target/debug/deps/libanother_one-c11d7dc2e8da5a3e.rmeta: src/bin/another_one.rs
 
-/home/hamza/Projects/rust_basics/f_modules_1/target/debug/deps/another_one-c11d7dc2e8da5a3e.d: src/bin/another_one.rs
+/home/robotics/Projects/rust_basics/f_modules_1/target/debug/deps/another_one-c11d7dc2e8da5a3e.d: src/bin/another_one.rs
 
 src/bin/another_one.rs:
