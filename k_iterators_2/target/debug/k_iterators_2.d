@@ -1,0 +1,1 @@
+/home/robotics/Projects/rust_basics/k_iterators_2/target/debug/k_iterators_2: /home/robotics/Projects/rust_basics/k_iterators_2/src/lib.rs /home/robotics/Projects/rust_basics/k_iterators_2/src/main.rs
