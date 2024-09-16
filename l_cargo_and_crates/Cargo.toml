@@ -1,0 +1,13 @@
+[package]
+name = "l_cargo_and_crates"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0   # No optimization
+# Dev give fast compile time and slower runtime as in the development phase, we will be more compiling our code. 
+[profile.release]
+opt-level = 3   # Highest number of optimization
+# Faster runtime and slower compile time. These are customizable by changing the opt-time = 1.

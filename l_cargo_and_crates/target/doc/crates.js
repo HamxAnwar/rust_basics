@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["l_cargo_and_crates"];
