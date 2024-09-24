@@ -1,8 +1,8 @@
 // use art::kinds::PrimaryColor;
 // use art::utils::mix;
 
-use art::mix;
-use art::PrimaryColor;
+use hamza_art::mix;
+use hamza_art::PrimaryColor;
 
 fn main() {
     let red = PrimaryColor::Red;
