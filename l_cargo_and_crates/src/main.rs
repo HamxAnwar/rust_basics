@@ -1,7 +1,7 @@
 // Cargo is the rust packaging system.
 // Profiles define how the code is to be compiled in cargo.
 // Cargo has two profiles:
-//  - Dev: Development build. (Unoptimized)
+//  - Dev: Good defaults for Development build. (Unoptimized)
 //  - Release: Release defined the release build with good defaults. (Optimized)
 //  Simply doing cargo build will compile the code in the dev profile as shown with the finished
 //  line in cmd.
