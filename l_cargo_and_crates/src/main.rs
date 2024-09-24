@@ -11,7 +11,7 @@
 //  Lets get a crate ready for publishing as we have previously used other's codes. First we will
 //  see about documentation comments which are given by //! or ///.
 
-/// Another doc comment.
+/// Another doc comment is given by //!.
 /// It wont document the information following the comment but the information inside the comment.
 /// This is the difference between //! and ///.
 //! #My Crate
