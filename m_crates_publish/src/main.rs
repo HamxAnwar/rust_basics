@@ -15,6 +15,13 @@
 //      pub use self::utils::mix;
 // When the doc is regenerated, we can see the re-export on the main page of the documentation.
 // We can also see that in the main file, we do not need to import the enum and function through the full path. Rather, we can do that from the top level of our library.
+//
+// To publish your crate on crates.io, sign up on it using github.
+// Profile -> Account settings -> API tokens -> New token.
+// On the command line -> cargo login.
+// Now we can publish the crate, but we need to check our meta data.
+// Name is important to be published.
+//
 
 fn main() {
     println!("Hello, world!");
