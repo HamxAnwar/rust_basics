@@ -1,0 +1,1 @@
+/home/hamzaanwar/Projects/rust_basics/art/target/package/hamza-art-0.1.0/target/debug/hamza-art: /home/hamzaanwar/Projects/rust_basics/art/target/package/hamza-art-0.1.0/src/lib.rs /home/hamzaanwar/Projects/rust_basics/art/target/package/hamza-art-0.1.0/src/main.rs
