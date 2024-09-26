@@ -21,7 +21,16 @@
 // On the command line -> cargo login.
 // Now we can publish the crate, but we need to check our meta data.
 // Name is important to be published.
-//
+// Also remember to verify the email at crates.io.
+// Also remember to add the description and liscence to the toml file.
+// Now cargo publish to publish the crate to crates.io using "cargo publish" command.
+// Remember that publishing to crates.io is permanent and we cannot delete what has been published.
+// This helps to not break other's code if they use our crate.
+// We can upload a different version of our crate (modified one) by changing the version in the toml file publishing again.
+// Though we can't delete or modify the crate but we can stop the downloading of a specific version of our crate using the yank command.
+// So we do "cargo yank --vers VersionNumber" to yank our crate.
+// This will let the already users to use this crate but new users can't use it.
+// To undo the yank -> "cargo yank --vers VersionNumber --undo".
 
 fn main() {
     println!("Hello, world!");

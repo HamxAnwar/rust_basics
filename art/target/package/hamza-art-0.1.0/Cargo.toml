@@ -18,7 +18,9 @@ autobins = false
 autoexamples = false
 autotests = false
 autobenches = false
+description = "A library for modeling artistic concepts."
 readme = false
+license = "MIT"
 
 [lib]
 name = "hamza_art"
