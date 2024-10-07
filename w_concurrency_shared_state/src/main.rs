@@ -7,7 +7,7 @@
 // Mutex are hard:
 //      - Acquire a lock before getting access to data.
 //      - Release the lock when done with the data, so other threads can use it.
-
+/*
 use std::sync::Mutex;
 
 fn main() {
@@ -19,4 +19,33 @@ fn main() {
     }
 
     println!("m = {:?}", m);
+}
+*/
+
+// But how to share this data between threads.
+// We will create a mutex with value 0.
+// we will spin up 10 threads which will increment this value by 1.
+// At the end, we will have 10.
+
+use std::sync::{Arc, Mutex};
+use std::thread;
+
+fn main() {
+    let counter = Arc::new(Mutex::new(0));
+    let mut handles = vec![];
+
+    for _ in 0..10 {
+        let counter = Arc::clone(&counter);
+        let handle = thread::spawn(move || {
+            let mut num = counter.lock().unwrap();
+
+            *num += 1;
+        });
+        handles.push(handle);
+    }
+
+    for handle in handles {
+        handle.join().unwrap();
+    }
+    println!("Result: {}", *counter.lock().unwrap());
 }
