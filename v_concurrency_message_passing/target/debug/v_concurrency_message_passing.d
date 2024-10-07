@@ -1,0 +1,1 @@
+/home/hamzaanwar/Projects/rust_basics/v_concurrency_message_passing/target/debug/v_concurrency_message_passing: /home/hamzaanwar/Projects/rust_basics/v_concurrency_message_passing/src/main.rs
